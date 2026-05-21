@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:solid 1px  rgb(209, 209, 209) ;
+}
+header img{
+    width: 100px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
