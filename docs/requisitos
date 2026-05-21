@@ -1,40 +1,35 @@
-Requisitos Funcionais (RF)
-RF01 — Cadastro de Usuário
 
+#Requisitos Funcionais (RF)
+
+#RF01 — Cadastro de Usuário
 O sistema deve permitir que usuários realizem cadastro utilizando:
-
 nome
 e-mail
 senha
-RF02 — Login
-
+-------------------------------------------------------------------------------------------------------------
+#RF02 — Login
 O sistema deve permitir que usuários realizem login utilizando:
-
 e-mail
 senha
-RF03 — Acessar Perfil
-
+-------------------------------------------------------------------------------------------------------------
+#RF03 — Acessar Perfil
 O sistema deve permitir que usuários autenticados acessem seu perfil para visualizar:
-
 informações pessoais
 veículos favoritos
 carrinho
-RF04 — Editar Perfil
-
+-------------------------------------------------------------------------------------------------------------
+#RF04 — Editar Perfil
 O sistema deve permitir que usuários autenticados editem suas informações de perfil, como:
-
 nome
 e-mail
 foto
 senha
-RF05 — Visualizar Veículos Disponíveis
-
+-------------------------------------------------------------------------------------------------------------
+#RF05 — Visualizar Veículos Disponíveis
 O sistema deve permitir que usuários visualizem a lista de veículos disponíveis para compra.
-
-RF06 — Visualizar Detalhes do Veículo
-
+-------------------------------------------------------------------------------------------------------------
+#RF06 — Visualizar Detalhes do Veículo
 O sistema deve permitir que usuários visualizem informações detalhadas dos veículos anunciados, como:
-
 marca
 modelo
 ano
@@ -43,10 +38,9 @@ quilometragem
 descrição
 imagens
 categoria
-RF07 — Pesquisar Veículos por Seções
-
+-------------------------------------------------------------------------------------------------------------
+#RF07 — Pesquisar Veículos por Seções
 O sistema deve permitir a pesquisa e filtragem de veículos por categorias, como:
-
 Esportivo
 Econômico
 SUV
@@ -54,27 +48,40 @@ Executivo
 Urbano
 Off-road
 Utilitário
-RF08 — Favoritar Veículos
-
+-------------------------------------------------------------------------------------------------------------
+#RF08 — Favoritar Veículos
 O sistema deve permitir que usuários autenticados adicionem veículos à lista de favoritos.
-
-RF09 — Adicionar Veículo ao Carrinho
-
+-------------------------------------------------------------------------------------------------------------
+#RF09 — Adicionar Veículo ao Carrinho
 O sistema deve permitir que usuários adicionem veículos ao carrinho para futura compra.
-
-RF10 — Remover Veículo do Carrinho
-
+-------------------------------------------------------------------------------------------------------------
+#RF10 — Remover Veículo do Carrinho
 O sistema deve permitir que usuários removam veículos adicionados ao carrinho.
-
-RF11 — Finalizar Compra
-
+-------------------------------------------------------------------------------------------------------------
+#RF11 — Finalizar Compra
 O sistema deve permitir que usuários finalizem a compra de veículos adicionados ao carrinho.
-
-RF12 — Upload de Imagens
-
+-------------------------------------------------------------------------------------------------------------
+#RF12 — Upload de Imagens
 O sistema deve exibir imagens dos veículos anunciados.
-
-RF13 — Realizar Logout
-
+-------------------------------------------------------------------------------------------------------------
+#RF13 — Realizar Logout
 O sistema deve permitir que usuários autenticados encerrem sua sessão com segurança.
+-------------------------------------------------------------------------------------------------------------
 
+
+#Requisitos Nao Funcionais (NF)
+#RNF01 — Responsividade
+O sistema deve ser responsivo e compatível com dispositivos móveis, tablets e desktops.
+-------------------------------------------------------------------------------------------------------------
+#RNF02 — Performance
+O sistema deve apresentar carregamento rápido das páginas e listagens
+-------------------------------------------------------------------------------------------------------------
+#RNF03 — Banco de Dados
+O sistema deve utilizar SQL para persistência dos dados.
+-------------------------------------------------------------------------------------------------------------
+#RNF04 — Arquitetura em Camadas
+O backend deve seguir arquitetura em camadas:
+Controller
+Service
+Repository
+-------------------------------------------------------------------------------------------------------------
